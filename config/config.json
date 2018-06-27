@@ -1,0 +1,30 @@
+{
+  "development": {
+    "username": "root",
+    "password": "",
+    "database": "sample_db",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "dialectOptions": {
+      "encrypt": true
+    },
+    "database_encrypt": true,
+    "forceSchema": true,
+    "allowDestructiveSync": true,
+    "jwt_privateKey":"RHkEOR7WNUqglnwJew2Bdd79thAasd234HDJ"   
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
